@@ -8,6 +8,7 @@ import org.example.exercise.Exercise17;
 import org.example.exercise.Exercise18;
 import org.example.exercise.Exercise2;
 import org.example.exercise.Exercise20;
+import org.example.exercise.Exercise23;
 import org.example.exercise.Exercise3A;
 import org.example.exercise.Exercise3B;
 import org.example.exercise.RandomDice;
@@ -18,8 +19,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Exercise> exercises = Arrays.asList(
-                new Exercise20(),
-                new RandomDice()
+               // new Exercise20(),
+               // new RandomDice()
+                new Exercise23()
         );
         exercises.forEach(Exercise::run);
     }
