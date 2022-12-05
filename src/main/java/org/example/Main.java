@@ -10,6 +10,7 @@ import org.example.exercise.Exercise2;
 import org.example.exercise.Exercise20;
 import org.example.exercise.Exercise3A;
 import org.example.exercise.Exercise3B;
+import org.example.exercise.RandomDice;
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,7 +18,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Exercise> exercises = Arrays.asList(
-                new Exercise20()
+                new Exercise20(),
+                new RandomDice()
         );
         exercises.forEach(Exercise::run);
     }
