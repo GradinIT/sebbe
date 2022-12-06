@@ -19,9 +19,18 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Exercise> exercises = Arrays.asList(
-               // new Exercise20(),
-               // new RandomDice()
-                new Exercise23()
+                new Exercise1(),
+                new Exercise2(),
+                new Exercise3A(),
+                new Exercise3B(),
+                new Exercise10(),
+                new Exercise14(),
+                new Exercise16(),
+                new Exercise17(),
+                new Exercise18(),
+                new Exercise20(),
+                new Exercise23(),
+                new RandomDice()
         );
         exercises.forEach(Exercise::run);
     }
