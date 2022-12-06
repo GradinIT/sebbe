@@ -16,7 +16,7 @@ public class Exercise22 implements Exercise {
         int counter = 0;
         System.out.println("Give me a number between 0 and 1 000 000: ");
         guess = scanner.nextInt();
-        while(guess != randomValue && counter < 20) {
+        while(guess != randomValue && counter < 20 && guess != 0) {
             if(guess > randomValue) {
                 System.out.println("The value is lower than your guess");
             }
@@ -28,5 +28,9 @@ public class Exercise22 implements Exercise {
             System.out.println("Give me a number between 0 and 1 000 000: ");
             guess = scanner.nextInt();
         }
+        if(guess == 0) {
+            System.exit(0);
+        }
+        System.out.println(" correct the number was " +randomValue + " and you guessed correct in "+counter + " tries");
     }
 }
