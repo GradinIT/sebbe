@@ -7,11 +7,12 @@ public class Exercise4 implements Exercise {
     @Override
     public void run() {
         printInformation();
-        System.out.println("Ett bra variabelnamn är tydligt och beskrivande så man förstår vad den är och hur den används.");
+        System.out.println("en int är en primär datatyp som representerar heltal och är 4 byte stor");
+        System.out.println("en int är en primär datatyp som representerar flyttal/decimaltal och är 8 byte stor\n");
     }
 
     @Override
     public void printInformation() {
-        System.out.println(TextUtil.underLineText("5. Vad kännetecknar ett bra variabelnamn?"));
+        System.out.println(TextUtil.underLineText("4. Vad är det för skillnad på int, som är en heltalsvariabel, och double, som är en flyttalsvariabel?"));
     }
 }

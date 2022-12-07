@@ -8,7 +8,7 @@ public class Exercise3 implements Exercise {
     public void run() {
         printInformation();
         //System.out.println(Vad_är_det_som_är_fel_här?");
-        System.out.println("lösning: System.out.println(\"Vad_är_det_som_är_fel_här?\")"); //lösning
+        System.out.println("lösning: System.out.println(\"Vad_är_det_som_är_fel_här?\");\n"); //lösning
     }
 
     @Override

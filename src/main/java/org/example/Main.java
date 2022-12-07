@@ -11,7 +11,8 @@ public class Main {
                 new Exercise1(),
                 new Exercise2(),
                 new Exercise3(),
-                new Exercise4()
+                new Exercise4(),
+                new Exercise5()
   /*
                 new Exercise10(),
                 new Exercise14(),
