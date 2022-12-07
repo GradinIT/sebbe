@@ -1,6 +1,7 @@
 package org.example.exercise;
 
 import org.example.Exercise;
+import org.example.util.TextUtil;
 
 public class Exercise3A implements Exercise {
     @Override
@@ -11,6 +12,6 @@ public class Exercise3A implements Exercise {
 
     @Override
     public void printInformation() {
-
+        System.out.println(TextUtil.underLineText("3. Ja? Vad är det som är fel med programmet? Lös felet och kör programmet.\n"));
     }
 }
