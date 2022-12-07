@@ -14,4 +14,9 @@ public class Exercise23 implements Exercise {
             }
         }
     }
+
+    @Override
+    public void printInformation() {
+
+    }
 }

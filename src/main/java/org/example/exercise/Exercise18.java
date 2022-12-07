@@ -12,4 +12,9 @@ public class Exercise18 implements Exercise {
             System.out.println(c);
         }
     }
+
+    @Override
+    public void printInformation() {
+
+    }
 }

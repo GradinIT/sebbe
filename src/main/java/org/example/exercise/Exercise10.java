@@ -15,6 +15,11 @@ public class Exercise10 implements Exercise {
         exercise10(8, 4);
     }
 
+    @Override
+    public void printInformation() {
+
+    }
+
     private void exercise10(int x, int y) {
         if (x == y) {
             System.out.printf("%d is equal to %d\n", x, y);

@@ -14,6 +14,12 @@ public class Exercise14 implements Exercise {
         int y = scanner.nextInt();
         System.out.printf("the sum of %d and %d is %d",x,y , add(x, y));
     }
+
+    @Override
+    public void printInformation() {
+
+    }
+
     private int add(int x , int y) {
         return x + y;
     }

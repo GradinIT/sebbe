@@ -10,4 +10,9 @@ public class Exercise16 implements Exercise {
                 System.out.println(i);
         }
     }
+
+    @Override
+    public void printInformation() {
+
+    }
 }

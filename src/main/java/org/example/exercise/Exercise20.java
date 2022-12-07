@@ -22,4 +22,9 @@ public class Exercise20 implements Exercise {
             value = scanner.nextInt();
         }
     }
+
+    @Override
+    public void printInformation() {
+
+    }
 }

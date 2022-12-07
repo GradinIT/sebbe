@@ -8,4 +8,9 @@ public class Exercise3A implements Exercise {
         //System.out.println(Vad_är_det_som_är_fel_här?");
         System.out.println("Vad_är_det_som_är_fel_här?"); //lösning
     }
+
+    @Override
+    public void printInformation() {
+
+    }
 }

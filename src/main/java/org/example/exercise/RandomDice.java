@@ -9,4 +9,9 @@ public class RandomDice implements Exercise {
         Dice dice = new Dice();
         System.out.println(dice.throwDice());
     }
+
+    @Override
+    public void printInformation() {
+
+    }
 }
