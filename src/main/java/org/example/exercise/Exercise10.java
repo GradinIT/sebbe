@@ -11,9 +11,9 @@ public class Exercise10 implements Exercise {
     @Override
     public void run() {
         printInformation();
-        System.out.print("prövar me x = 5 , y = 5 "); exercise10(5, 5);
-        System.out.print("prövar me x = 5 , y = 6 "); exercise10(5, 6);
-        System.out.print("prövar me x = 8 , y = 4 "); exercise10(8, 4);
+        System.out.print("prövar me x = 5 , y = 5 \t"); exercise10(5, 5);
+        System.out.print("prövar me x = 5 , y = 6 \t"); exercise10(5, 6);
+        System.out.print("prövar me x = 8 , y = 4 \t"); exercise10(8, 4);
     }
 
     @Override
@@ -26,7 +26,7 @@ public class Exercise10 implements Exercise {
             System.out.printf("%d is equal to %d\n", x, y);
         } else {
             x = y = 0;
-            System.out.printf("Olika set bouth to zero %d %d\n", x, y);
+            System.out.printf("Not equal, set bouth to zero %d %d\n", x, y);
         }
     }
 }

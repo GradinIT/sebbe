@@ -17,19 +17,20 @@ public class Main {
                 new Exercise7(),
                 new Exercise8(),
                 new Exercise9(),
-                new Exercise10()
-  /*
                 new Exercise10(),
+                new Exercise11(),
+                new Exercise12(),
+                new Exercise13(),
                 new Exercise14(),
+                new Exercise15(),
                 new Exercise16(),
                 new Exercise17(),
                 new Exercise18(),
+                new Exercise19(),
                 new Exercise20(),
+                new Exercise22(),
                 new Exercise23(),
-                new RandomDice(),
-                new Exercise22()
-
-  */
+                new RandomDice()
         );
         exercises.forEach(Exercise::run);
     }

@@ -7,7 +7,7 @@ public class Dice {
 
     }
     public int throwDice() {
-        this.value = (int)(Math.random() * 6) +1;
+        this.value = (int)(Math.random() * 6) + 1;
         return value;
     }
     public int getValue() {
