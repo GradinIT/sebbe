@@ -31,20 +31,32 @@ public class Main {
 10. Skriv en if-sats som kontrollerar värdet på två heltal. Har de samma värde så ska det skrivas ut i konsolen. Om de inte har samma värde så ska båda variablernas värde ändras till 0. Skriv sedan utför att kontrollera att värdena har ändrats.
 11. Vad är fel med följande metod? Skriv om den så programmet går att köra.
 ![exercise11.png](images%2Fexercise11.png)
+ 
 12. Skriv ett program som frågar–Vad heter du? 
     Användaren får sedan skriva in sitt namn och programmet ska då skrivaut 
     -Hej (användarens namn).Välkommen hit!
+
 13. Modifiera programmet så att användaren får skriva in förnamn, efternamn och adress. 
-    Skriv sedan ut dessa på skärmen på varsin rad
+  Skriv sedan ut dessa på skärmen på varsin rad 
+
 14. Skriv ett program som frågar användaren efter två heltal. Skapa en metod som adderar de två talen och skriver ut resultatet på skärmen
+
 15. Skriv ett program som frågar användaren efter en summa i svenska kronor och returnerar hur mycket det motsvarar i euro (1 svensk krona = 0,094 Euro när uppgiften skapades)
+
 16. Skriv ett program som skriver ut alla jämna tal mellan 0 och 20
+
 17. Modifieraprogrammetså det skriver ut alla udda tal mellan 0 och 20
+
 18. Skriv ett program som skriver ut alfabetet (ej Å Ä Ö)iordning (A -Z)
+
 19. Modifiera programmet så det skriver ut alfabetet i omvänd ordning (Z –A)
+
 20. Skriv ett program som låter användaren mata in ett heltal och skriver ut om det är ett udda eller jämnt tal. Om användaren matar in en nolla så ska programmet avslutas
+
 21. Skriv ett program somlåter användaren mata in ett tal och returnerar det inmatade talet i kvadrat. Om användaren matar in en nolla ska programmet avslutas
+
 22. Skriv ett programsom heter ”20 frågor”. Programmet ska slumpa fram ett tal mellan 1 – 1000000. Användaren ska på högst 20 försök gissa vilket tal som har slumpats fram. För varje gissning ska programmet svara om gissningenär rätt, för hög eller för låg.
+
 23. Skriv koden som genererar följande utskriftAnvänd en nästlad for loop.
 
 ----
