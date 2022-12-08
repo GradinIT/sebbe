@@ -1,12 +1,11 @@
 # Ett repository där alla övningar finns som facit
 
 ---
+Jag har byggt detta så att alla övningar ligger i en Egen Klass Exercise{nummer}.java. Alla dessa klasser ligger i ett eget package
+org.example.exercise; ett package är lättast att likva vid en mapp eller ett directory. 
 
-1. Klassen Main kör alla övningar
-2. Alla övnongar ligger i en egen klass 
-3. Alla övningar har metoden run som mainklassen kör
-4. Övningarna ligger i en lista
-5. Mainklassen kör varje övning i den ordning man lagt in dom 
+Alla övningar körs av Main programmet Main.java här nedan. Övningarna ligger i ordning som en lista av Exercise och körs en och en
+automatiskt av Main
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -54,7 +53,7 @@ public class Main {
 
 16. Skriv ett program som skriver ut alla jämna tal mellan 0 och 20
 
-17. Modifieraprogrammetså det skriver ut alla udda tal mellan 0 och 20
+17. Modifiera programmet så det skriver ut alla udda tal mellan 0 och 20
 
 18. Skriv ett program som skriver ut alfabetet (ej Å Ä Ö)iordning (A -Z)
 
@@ -62,9 +61,9 @@ public class Main {
 
 20. Skriv ett program som låter användaren mata in ett heltal och skriver ut om det är ett udda eller jämnt tal. Om användaren matar in en nolla så ska programmet avslutas
 
-21. Skriv ett program somlåter användaren mata in ett tal och returnerar det inmatade talet i kvadrat. Om användaren matar in en nolla ska programmet avslutas
+21. Skriv ett program som låter användaren mata in ett tal och returnerar det inmatade talet i kvadrat. Om användaren matar in en nolla ska programmet avslutas
 
-22. Skriv ett programsom heter ”20 frågor”. Programmet ska slumpa fram ett tal mellan 1 – 1000000. Användaren ska på högst 20 försök gissa vilket tal som har slumpats fram. För varje gissning ska programmet svara om gissningenär rätt, för hög eller för låg.
+22. Skriv ett program som heter ”20 frågor”. Programmet ska slumpa fram ett tal mellan 1 – 1000000. Användaren ska på högst 20 försök gissa vilket tal som har slumpats fram. För varje gissning ska programmet svara om gissningenär rätt, för hög eller för låg.
 
 23. Skriv koden som genererar följande utskriftAnvänd en nästlad for loop.
 
