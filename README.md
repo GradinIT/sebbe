@@ -18,17 +18,26 @@ public class Main {
 ### Övningar 
 
 1. Skriv ett program som skriver ut JAG ÄLSKAR JAVA på skärmen
+
 2. Skriv minsta möjliga program som kan kompileras och köras
+
 3. Ja? Vad är det som är fel med programmet? Lös felet och kör programmet.
 
 ![exercise3.png](images%2Fexercise3.png)
 4. Vad är det för skillnad på int, som är en heltalsvariabel, och double, som är en flyttalsvariabel?
+
 5. Vad kännetecknar ett bra variabelnamn?
+
 6. Nämn en datatyp som är lämplig för att innehålla en persons ålder
+
 7. Nämn en datatyp som är lämplig för att innehålla en persons vikt
+
 8. String och char kan båda innehålla valfria tecken. Vad är det för skillnad på dem?
+
 9. Vad är skillnaden på a = 5 och a == 5?
+
 10. Skriv en if-sats som kontrollerar värdet på två heltal. Har de samma värde så ska det skrivas ut i konsolen. Om de inte har samma värde så ska båda variablernas värde ändras till 0. Skriv sedan utför att kontrollera att värdena har ändrats.
+
 11. Vad är fel med följande metod? Skriv om den så programmet går att köra.
 ![exercise11.png](images%2Fexercise11.png)
  
