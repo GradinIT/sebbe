@@ -7,7 +7,7 @@ public class Exercise5 implements Exercise {
     @Override
     public void run() {
         printInformation();
-        System.out.println("Ett bra variabelnamn är tydligt och beskrivande så man förstår vad den är och hur den används.");
+        System.out.println("Ett bra variabelnamn är tydligt och beskrivande så man förstår vad den är och hur den används.\n");
     }
 
     @Override
