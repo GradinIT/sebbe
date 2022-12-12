@@ -28,10 +28,12 @@ public class Main {
                 new Exercise18(),
                 new Exercise19(),
                 new Exercise20(),
+                new Exercise21(),
                 new Exercise22(),
                 new Exercise23(),
                 new RandomDice()
         );
         exercises.forEach(Exercise::run);
+
     }
 }
