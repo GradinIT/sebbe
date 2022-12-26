@@ -2,10 +2,16 @@
 
 ---
 Jag har byggt detta så att alla övningar ligger i en Egen Klass Exercise{nummer}.java. Alla dessa klasser ligger i ett eget package
-org.example.exercise; ett package är lättast att likva vid en mapp eller ett directory. 
+org.example.exercise; ett package är lättast att liknas vid en mapp eller ett directory. 
 
 Alla övningar körs av Main programmet Main.java här nedan. Övningarna ligger i ordning som en lista av Exercise och körs en och en
 automatiskt av Main
+
+I paketet org.example.tutorial finns en del extra övningar.
+
+Mer övningar och läsning
+https://www.w3schools.com/java/default.asp
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -68,6 +74,3 @@ public class Main {
 23. Skriv koden som genererar följande utskriftAnvänd en nästlad for loop.
 
 ----
-
-Extra övningar och läsning
-https://www.w3schools.com/java/default.asp
