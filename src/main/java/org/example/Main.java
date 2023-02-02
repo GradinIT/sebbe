@@ -4,6 +4,7 @@ import org.example.exercise.*;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,6 +35,5 @@ public class Main {
                 new RandomDice()
         );
         exercises.forEach(Exercise::run);
-
     }
 }

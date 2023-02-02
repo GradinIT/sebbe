@@ -12,15 +12,15 @@ public class Exercise21 implements Exercise {
         printInformation();
         Scanner scanner = new Scanner(System.in);
         System.out.print("Give me a number to square( 0 to exit): ");
-        BigDecimal value = scanner.nextBigDecimal();
-        while( !value.equals(0) ) {
-            System.out.printf("%.2f square is %.2f",value,square(value));
+        int value = scanner.nextInt();
+        while( value != 0 ) {
+            System.out.printf("%.2f square is %.2f\n",value,square(value));
             System.out.print("Give me a number to square( 0 to exit): ");
-            value = scanner.nextBigDecimal();
+            value = scanner.nextInt();
         }
     }
-    private BigDecimal square(BigDecimal x) {
-        return x.multiply(x);
+    private BigDecimal square(int x) {
+        return new BigDecimal(x).multiply(new BigDecimal(x));
     }
     @Override
     public void printInformation() {

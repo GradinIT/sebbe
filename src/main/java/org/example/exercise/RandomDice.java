@@ -6,6 +6,7 @@ import org.example.util.TextUtil;
 public class RandomDice implements Exercise {
     @Override
     public void run() {
+        printInformation();
         Dice dice = new Dice();
         System.out.println(dice.throwDice());
     }
