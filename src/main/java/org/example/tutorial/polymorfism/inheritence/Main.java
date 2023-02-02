@@ -21,11 +21,13 @@ public class Main {
                 .name("cement bag ")
                 .weight(150L)
                 .build());
-        stock.stream().forEach(System.out::println);
-        stock.stream().forEach(article -> {
+
+        stock.forEach(System.out::println);
+
+        stock.forEach(article -> {
             System.out.println(article.getId());
             System.out.println(article.getName());
-            if (LumberTwoByFour.class.isInstance(article)) {
+            if (article instanceof LumberTwoByFour) {
                 System.out.println("Article is LumberTwoByFour");
                 System.out.println(((LumberTwoByFour)article).getType());
             }
