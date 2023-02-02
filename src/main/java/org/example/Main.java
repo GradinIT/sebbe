@@ -35,5 +35,7 @@ public class Main {
                 new RandomDice()
         );
         exercises.forEach(Exercise::run);
-    }
+
+
+     }
 }
