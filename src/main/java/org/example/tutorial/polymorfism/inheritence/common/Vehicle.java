@@ -1,4 +1,4 @@
-package org.example.tutorial.polymorfism.inheritence;
+package org.example.tutorial.polymorfism.inheritence.common;
 
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;

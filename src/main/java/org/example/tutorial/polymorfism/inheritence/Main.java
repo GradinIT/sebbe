@@ -3,17 +3,13 @@ package org.example.tutorial.polymorfism.inheritence;
 import org.example.tutorial.polymorfism.inheritence.bike.Bicycle;
 import org.example.tutorial.polymorfism.inheritence.bike.MotorCycle;
 import org.example.tutorial.polymorfism.inheritence.car.Car;
+import org.example.tutorial.polymorfism.inheritence.common.MotorisedVehicle;
+import org.example.tutorial.polymorfism.inheritence.common.Vehicle;
 import org.example.tutorial.polymorfism.inheritence.truck.Lorry;
 import org.example.util.TextUtil;
 
-import java.io.LineNumberInputStream;
-import java.sql.SQLOutput;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.toList;
 
 public class Main {
     public static void main(String[] args) {
@@ -42,7 +38,7 @@ public class Main {
                         .build()
         );
 
-        System.out.println("Alla fordon");
+        System.out.println(TextUtil.underLineText(" Alla fordon"));
         vehicles.forEach(System.out::println);
 
 
@@ -51,7 +47,7 @@ public class Main {
                 .filter(Objects::nonNull)
                 .toList();
 
-        System.out.println(TextUtil.underLineText("Bara motorfordon"));
+        System.out.println(TextUtil.underLineText(" Bara motorfordon"));
         motorisedVehicles.forEach(System.out::println);
 
 
@@ -60,7 +56,7 @@ public class Main {
                 .filter(Objects::nonNull)
                 .toList();
 
-        System.out.println("Bara fordon som ej är motorfordon");
+        System.out.println(TextUtil.underLineText(" Bara fordon som ej är motorfordon"));
         nonMotorisedVehicles.forEach(System.out::println);
     }
 }

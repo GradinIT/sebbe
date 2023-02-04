@@ -1,6 +1,8 @@
 package org.example.tutorial;
 
 public class DefiningAConstant {
+    // using final defines a field to be constant
+    // a constant is good practise to nam in CAPITAL letters
     private static final String CONSTANT_STRING_VALUE = "CANT BE CHANGED";
 
     public static void main(String[] args) {

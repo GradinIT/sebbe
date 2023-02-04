@@ -1,8 +1,7 @@
 package org.example.tutorial.polymorfism.inheritence.truck;
 
-import lombok.ToString;
 import lombok.experimental.SuperBuilder;
-import org.example.tutorial.polymorfism.inheritence.MotorisedVehicle;
+import org.example.tutorial.polymorfism.inheritence.common.MotorisedVehicle;
 @SuperBuilder
 public class Lorry extends MotorisedVehicle {
     private final Integer nbrOfAxels;
