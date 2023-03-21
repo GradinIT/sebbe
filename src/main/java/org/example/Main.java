@@ -1,13 +1,10 @@
 package org.example;
 
-import org.example.exercise.*;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import org.example.util.TextUtil;
 
 public class Main {
     public static void main(String[] args) {
+        /*
         List<Exercise> exercises = Arrays.asList(
                 new Exercise1(),
                 new Exercise2(),
@@ -35,7 +32,7 @@ public class Main {
                 new RandomDice()
         );
         exercises.forEach(Exercise::run);
-
-
-     }
+*/
+        System.out.println(TextUtil.underLineText("Hej"));
+    }
 }
