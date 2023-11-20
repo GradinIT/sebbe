@@ -6,6 +6,8 @@ import lombok.NonNull;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
 
+import javax.validation.constraints.NotNull;
+
 @SuperBuilder
 @Getter
 @ToString
